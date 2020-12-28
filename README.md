@@ -6,9 +6,13 @@
 
 - Install the dependencies using `pip install -r requirement.txt`.
 
-- Start the python server, `python manage.py runserver`.
+- Make migrations: `python manage.py makemigrations`
 
-- Go to `localhost:8080` (or any other host:port you are using) and upload the `som_file_name.xls` file.
+- Migrate: `python manage.py migrate`
+
+- Start the python server, `python manage.py runserver`. Or with specified host: `python manage.py runserver 8080`
+
+- Go to `localhost:8080` (or any other host:port you are using) and upload the `some_file_name.xls` file.
 
 - Upload file (.xls, .xlsx, .csv). Wait until all websites gone through checking process.
 
